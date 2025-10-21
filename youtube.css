@@ -1,0 +1,323 @@
+body {
+            margin: 0;
+            padding: 0; 
+           font-family:roboto;
+        }
+        #logo {
+            width: 50px;
+
+        }
+        .profile-picture {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+              }
+            .input-box {
+                width: 100%;
+                height: 40px;
+                border: 1px solid black;
+                border-radius: 25px;
+                overflow: hidden;
+            }
+              .search{
+                width: 100px;
+                border: none;
+                height: 40px;
+                text-indent: 15px;
+                outline: none;
+              }
+              .left-box {
+                flex: 1;
+                display: flex;
+                align-items: center;
+              }
+              .middle-box {
+                flex: 30%; 
+                display: flex; 
+                justify-content: center;
+              }
+              .right-box {
+                flex: 1;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+              }
+              .button {
+                margin-right: 30px;
+                width: 100px;
+                height: 40px;
+                border-radius: 20px;
+                border: none;
+                font-weight: bold;
+                cursor: pointer;
+              }
+              .button:hover {
+                background-color: rgb(128, 124, 124);
+              }
+              .bell-button {
+                margin-right: 10px;
+                height: 40px;
+                width: 40px;
+                border-radius: 50px;
+                border: none;
+                font-weight: bolder;
+                background: none;
+                cursor: pointer; 
+                position: relative; 
+                font-size: large; 
+              }
+              .bell-button:hover {
+                background-color: rgb(128, 124, 124);
+              }
+            .menu-button {
+                 margin-right: 10px;
+                height: 40px;
+                width: 40px;
+                border-radius: 50px;
+                border: none;
+                font-weight: bold;
+                background: none;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            .micro-button {
+              height: 40px;
+                width: 40px;
+                border-radius: 50px;
+                border: none;
+                font-weight: bold;
+                background: none;
+                cursor: pointer;
+                font-weight: bold; 
+            } 
+            .micro-button:hover {
+              background-color: rgb(128, 124, 124);
+            } 
+            .category-bar {
+              display: flex; 
+              justify-content: center;  
+ }   
+            
+             .All-btn { 
+              height: 30px;
+                width: 50px; 
+                border-radius: 10px;
+                font-weight: bold;
+                background: none;
+                cursor: pointer; 
+                margin-right: 10px; 
+                background-color: rgb(27, 25, 25); 
+                color: #e7d9d9;
+                
+               } 
+            .All-btn:hover {
+              background-color: rgb(128, 124, 124);
+            }
+            .Music-btn { 
+              height: 30px;
+                width: 50px;
+                border-radius: 10px;
+                font-weight: bold;
+                background: none;
+                cursor: pointer; 
+                margin-right: 10px;
+
+
+            } 
+            .Music-btn:hover {
+              background-color: rgb(128, 124, 124);
+            }
+            .Gaming-btn {
+             height: 30px;
+                width: 5opx; 
+                border-radius: 10px;
+                font-weight: bold;
+                background: none;
+                cursor: pointer; 
+                margin-right: 10px;
+ 
+            } 
+            .Gaming-btn:hover {
+              background-color: rgb(128, 124, 124);
+            }
+            .Live-btn {
+              height: 30px;
+                width: 50px; 
+                border-radius: 10px;
+                font-weight: bold;
+                background: none;
+                cursor: pointer; 
+                margin-right: 10px;
+
+            } 
+            .Live-btn:hover {
+              background-color: rgb(128, 124, 124);
+            }
+            .News-btn {
+              height: 30px;
+                width: 50px; 
+                border-radius: 10px;
+                font-weight: bold;
+                background: none;
+                cursor: pointer; 
+                margin-right: 10px;
+
+            } 
+            .News-btn:hover {
+              background-color: rgb(128, 124, 124);
+            }
+            .Sport-btn {
+              height: 30px;
+                width: 50px; 
+                border-radius: 10px;
+                font-weight: bold;
+                background: none;
+                cursor: pointer; 
+                margin-right: 10px;
+
+            } 
+            .Sport-btn:hover {
+              background-color: rgb(128, 124, 124);
+            }
+            .Movies-btn {
+              height: 30px;
+                width: 60px; 
+                border-radius: 10px;
+                font-weight: bold;
+                background: none;
+                cursor: pointer; 
+                margin-right: 10px;
+
+            } 
+            .Movies-btn:hover {
+              background-color: rgb(128, 124, 124);
+            }
+            .Podcasts-btn {
+              height: 30px;
+                width: 80px; 
+                border-radius: 10px;
+                font-weight: bold;
+                background: none;
+                cursor: pointer; 
+                margin-right: 10px;
+
+            } 
+            .Podcasts-btn:hover {
+              background-color: rgb(128, 124, 124);
+            }
+            .Comedy-btn {
+              height: 30px;
+                width: 65px; 
+                border-radius: 10px;
+                font-weight: bold;
+                background: none;
+                cursor: pointer; 
+                margin-right:10px;
+                } 
+                .Comedy-btn:hover {
+                  background-color: rgb(128, 124, 124);
+                } 
+                .Korean-btn {
+                  height: 30px;
+                width: 60px; 
+                border-radius: 10px;
+                font-weight: bold;
+                background: none;
+                cursor: pointer; 
+                margin-right: 10px;
+
+                } 
+                .Korean-btn:hover {
+                  background-color: rgb(128, 124, 124)
+                } 
+                .united-btn {
+                   height: 30px;
+                width: 60px; 
+                border-radius: 10px;
+                font-weight: bold;
+                background: none;
+                cursor: pointer;
+
+                } 
+                .united-btn:hover {
+                  background-color: rgb(128, 124, 124)
+                } 
+                .badge {
+                  padding: 2px 5px; 
+                  background-color: red; 
+                  color: white; 
+                  border-radius: 10px; 
+                  font-size: x-small; 
+                  border: ipx solid white; 
+                  position: absolute;
+                  top: 0%; 
+                  right: 0%;
+                } 
+                .video-img {
+                  width: 400px; 
+                  border-radius: 12px;
+                } 
+                .video-img:hover {
+                  border-radius: 0px;
+                }
+
+                .channel-picture {
+                  width: 50px; 
+                  height: 50px; 
+                  border-radius: 50%; 
+                } 
+                .video-title {
+                  margin: 0px; 
+                  font-size: 20px; 
+                  display: flex;
+                } 
+                .video-card { 
+                  margin-left: 70px; 
+                  
+                } 
+                .video-info {
+                  display: flex; 
+                  gap: 15px; 
+              
+                } 
+                .mag-glass {
+                  width: 40px; 
+                  height: 40px; 
+                  border: none; 
+                  cursor: pointer; 
+                  border-radius: 0px 25px 25px 0px; 
+                  margin-left: 195px;
+                } 
+                .video-section {
+                  display: grid; 
+                  grid-template-columns: 1fr 1fr 1fr; 
+                  gap: 0px;
+
+                } 
+                @media (max-width:600px) {
+                    #logo {
+                        display: none; 
+                    } 
+                    .video-title {
+                      color: red;
+                    }
+                    .video-section {
+                      grid-template-columns: 1fr;
+                    } 
+                    .sub-bar-div {
+                      display: none;
+                    }
+                    .input-box {
+                      display: none;
+                    } 
+                }
+        

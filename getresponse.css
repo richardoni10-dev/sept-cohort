@@ -1,0 +1,120 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+} 
+.LOGO {
+    margin: 0;
+} 
+.right-nav {
+    display: flex;
+    gap: 10px;
+} 
+.left-nav {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+} 
+ul {
+    display: flex;
+    gap: 30px;
+}
+li {
+    list-style: none;
+} 
+.login-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bolder;
+} 
+.login-btn:hover {
+    color: blue;
+} 
+.demo-btn {
+    background-color: transparent;
+    border: 3px solid #fc5b1a;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: #fc5b1a;
+} 
+.demo-btn:hover{
+    cursor: pointer;
+    background-color: #fc5b1a;
+    color: white;
+} 
+.signup-btn {
+    background-color:  #00a2ff;
+    border: 2px solid #00a2ff;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+} 
+.signup-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #00a2ff;
+} 
+.section-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://media.gettyimages.com/id/2210083436/photo/newcastle-upon-tyne-england-ruben-amorim-manager-of-manchester-united-looks-dejected-after.jpg?s=612x612&w=0&k=20&c=asKVtVSnQ6M0PhRiNR4GYXT6_bRP4tbQ3rZJDT8roeQ=);
+} 
+.h1-part {
+    padding: 0;
+} 
+.left-part {
+    justify-content: flex; 
+    font-size: xx-large;
+    padding-left: 30px;
+} 
+.p-part1 {
+    font-size: medium; 
+    margin-top: 60px;
+    color: #717177;
+    font-weight: bolder;
+} 
+.p-credit {
+    font-size: medium;
+}
+.right-part { 
+font-size: xx-large; 
+padding-right: 50px;
+} 
+.btn-1 {
+background-color:yellow;
+font-size: 20px;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px; 
+    padding: 20px 50px;
+    
+    
+    
+    
+}
+.btn-1:hover {
+    cursor: pointer;
+    background-color: rgb(8, 170, 235);
+    color: white;
+
+} 
+.btn-2 {
+font-size:20px;
+border-radius: 30px;
+font-weight: bold; 
+background-color: black;
+color: aliceblue;
+padding: 20px 50px;
+} 
+.btn-2:hover {
+    cursor: pointer;
+    background-color: rgb(8, 170, 235);  
+} 
+.p-part {
+    font: size large;
+    font-weight: lighter;
+} 
